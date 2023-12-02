@@ -20,9 +20,14 @@ void convertirAEscalaDeGrises(Mat& imagen) {
     }
 }
 
-int main() {
+int main(int argc, char** argv) {
+    if (argc < 3) {
+        cout << "Uso: " << argv[0] << " <nombre_imagen_color> <nombre_imagen_grises>" << endl;
+        return 1;
+    }
+
     // Leer la imagen a color
-    Mat imagen = imread("perro.jpeg", IMREAD_COLOR);
+    Mat imagen = imread(argv[1], IMREAD_COLOR);
 
     if (imagen.empty()) {
         cout << "No se pudo leer la imagen." << endl;
@@ -44,13 +49,8 @@ int main() {
     // Mostrar el tiempo de ejecución total
     cout << "Tiempo de ejecucion: " << tiempoTotal << " segundos" << endl;
 
-    // Pedir al usuario el nombre de la imagen en escala de grises
-    string nombreImagenGrises;
-    cout << "Ingrese el nombre de la imagen en escala de grises: ";
-    cin >> nombreImagenGrises;
-
     // Guardar la imagen en escala de grises
-    imwrite(nombreImagenGrises, imagen);
+    imwrite(argv[2], imagen);
 
     return 0;
 }
