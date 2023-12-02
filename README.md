@@ -1,2 +1,2 @@
 # Tarea2-SO
-Procesamiento paralelo de im´agenes utilizando hebras.
+Procesamiento paralelo de imagenes utilizando hebras.
