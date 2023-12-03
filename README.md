@@ -9,3 +9,7 @@ Instalacion correcta de paquetes para correco funcionamiento de versiones del pr
 2) Ejecutar el siguiente comando de instalacion Open CV en la consola linux del directorio: "sudo apt-get install python3-opencv"
 3) Ejecutar el comando: "sudo apt install libopencv-dev"
 4) Seleccionar un directorio de version a ejecutar
+
+
+#Aclaraciones:
+Cabe resaltar que ciertos resultados pueden llegar a variar dependiendo de los cores de dispoitivo a ejecutar y de la cantidad de hilos seleccionados en las versiones paralelas programa.
