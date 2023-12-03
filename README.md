@@ -11,6 +11,6 @@ Instalacion correcta de paquetes para correcto funcionamiento de versiones del p
 4) Seleccionar un directorio de version a ejecutar.
 
 
-#Aclaraciones:
+# Aclaraciones:
 
 Cabe resaltar que ciertos resultados pueden llegar a variar dependiendo de los cores de dispoitivo a ejecutar y de la cantidad de hilos seleccionados en las versiones paralelas programa.
