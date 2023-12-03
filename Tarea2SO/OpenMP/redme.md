@@ -5,8 +5,11 @@
 
 
 Speedup(hebras-4hilos): 0,004 / 0,001 = 4
+
 Speedup(openMP-4hilos): 0,004 / 0,0015665 = 2,553
 
+
 Eficiencia(hebras-4hilos): 4 / 4 = 1
+
 Eficiencia(openMP-4hilos): 2,554 / 4 = 0,638
 
