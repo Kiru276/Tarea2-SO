@@ -14,3 +14,5 @@ Instalacion correcta de paquetes para correcto funcionamiento de versiones del p
 # Aclaraciones:
 
 Cabe resaltar que ciertos resultados pueden llegar a variar dependiendo de los cores del dispoitivo en que se ejecute y de la cantidad de hilos seleccionados en las versiones paralelas del programa.
+
+No se proporcionaron imagenes pesadas de prueba en el repositorio con el proposito de su facil acceso, pero se puede probar sin ningun problema de forma local la imagen que desee.
