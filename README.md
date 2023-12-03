@@ -12,4 +12,5 @@ Instalacion correcta de paquetes para correcto funcionamiento de versiones del p
 
 
 #Aclaraciones:
+
 Cabe resaltar que ciertos resultados pueden llegar a variar dependiendo de los cores de dispoitivo a ejecutar y de la cantidad de hilos seleccionados en las versiones paralelas programa.
